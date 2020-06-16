@@ -1,11 +1,9 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
-using OpenCvSharp;
 using System.Diagnostics;
 
-
-namespace Unwrap2DHerraez
+namespace UnwrapSharp
 {
     public unsafe class Unwrap2DHerraez
     {
@@ -432,6 +430,9 @@ namespace Unwrap2DHerraez
             }
             // Return the unwrapped_mask
             return unwrapped_image;
+        }
+        void Main() {
+            Console.WriteLine("Hello World");
         }
     }
 }
